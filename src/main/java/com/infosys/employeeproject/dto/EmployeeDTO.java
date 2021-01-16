@@ -1,7 +1,10 @@
 package com.infosys.employeeproject.dto;
 
+import org.springframework.stereotype.Service;
+
 import com.infosys.employeeproject.model.Employee;
 
+@Service
 public class EmployeeDTO {
 
 	private int Id;

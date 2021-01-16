@@ -4,8 +4,11 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+import org.springframework.stereotype.Service;
+
 import com.infosys.employeeproject.dto.EmployeeDTO;
 
+@Service
 @Entity
 public class Employee {
 	

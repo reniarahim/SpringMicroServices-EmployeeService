@@ -1,5 +1,8 @@
 package com.infosys.employeeproject.dto;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class TrainingDTO {
 	
 	private int id;
